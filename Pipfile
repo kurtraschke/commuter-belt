@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+jupyterlab = "*"
+geopandas = "*"
+xlrd = "*"
+pyxlsb = "*"
+openpyxl = "*"
+folium = "*"
+matplotlib = "*"
+mapclassify = "*"
+ipywidgets = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
